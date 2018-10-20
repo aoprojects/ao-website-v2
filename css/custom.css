@@ -1,5 +1,7 @@
 /* your styles go here */
-
+.btn-danger:after, .tn-danger:visited {
+	color: white;
+}
 .h2-header {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 26px;
@@ -7,6 +9,9 @@
 .content-column {
 	background-image: url("../img/founders-that-hustle-banner.png");
 	/*background-color: red;*/
+}
+.h1-image {
+	max-width: 100%;
 }
 #page-banner {
 	width: 100%;
@@ -28,7 +33,4 @@
 }
 .venture-logo {
 	padding: 20px 20px 30px 20px;
-}
-.btn-danger:after, .tn-danger:visited {
-	color: white;
 }
