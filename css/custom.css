@@ -1,4 +1,5 @@
 /* your styles go here */
+
 .btn-danger:after, .tn-danger:visited {
 	color: white;
 }
@@ -20,7 +21,9 @@
 #sidebar {
 	/*background-color: #aaa;*/
 	/*background-color: rgba(254,243,213,0.2);*/
-	background-color: rgba(241,0,49,0.1);
+	/*background-color: rgba(241,0,49,0.1);*/
+	background-color: white;
+	border-right: 1px solid #ddd;
 }
 .sidebar-p {
 	color: black;
