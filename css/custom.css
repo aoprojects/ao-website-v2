@@ -14,7 +14,11 @@
 }
 #sidebar {
 	/*background-color: #aaa;*/
-	background-color: rgba(254,243,213,0.2);
+	/*background-color: rgba(254,243,213,0.2);*/
+	background-color: rgba(241,0,49,0.1);
+}
+.sidebar-p {
+	color: black;
 }
 .page-details-section {
 	padding: 30px;
