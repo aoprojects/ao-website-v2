@@ -4,3 +4,27 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 26px;
 }
+.content-column {
+	background-image: url("../img/founders-that-hustle-banner.png");
+	/*background-color: red;*/
+}
+#page-banner {
+	width: 100%;
+	padding: 20px 20px;
+}
+#sidebar {
+	/*background-color: #aaa;*/
+	background-color: rgba(254,243,213,0.2);
+}
+.page-details-section {
+	padding: 30px;
+}
+.venture-logo {
+	padding: 10px 30px;
+}
+.venture-logo {
+	padding: 20px 20px 30px 20px;
+}
+.btn-danger:after, .tn-danger:visited {
+	color: white;
+}
