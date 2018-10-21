@@ -28,6 +28,9 @@
 .sidebar-p {
 	color: black;
 }
+.small-navbar-heading {
+	text-align: right;
+}
 .page-details-section {
 	padding: 30px;
 }
