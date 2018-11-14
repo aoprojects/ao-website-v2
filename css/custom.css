@@ -9,14 +9,18 @@ a:hover {
 .btn-danger:after, .tn-danger:visited {
 	color: white;
 }
-.h2-header {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 26px;
-}
 .content-column {
 	background-image: url("../img/founders-that-hustle-banner.png");
 	background-color: white;
 	/*background-color: red;*/
+}
+footer {
+	padding: 30px;
+	text-align: right;
+}
+.h2-header {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
 }
 .h1-image {
 	max-width: 100%;
