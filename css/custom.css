@@ -35,6 +35,9 @@ footer {
 	/*background-color: rgba(241,0,49,0.1);*/
 	background-color: white;
 }
+.sidebar-content a, .sidebar-content h1, .sidebar-content h2, .sidebar-content p, .sidebar-content ul li {
+	color: rgba(132, 132, 132, 1.0);
+}
 .sidebar-p {
 	color: black;
 }
