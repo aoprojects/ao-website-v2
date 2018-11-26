@@ -4,10 +4,12 @@ a {
 }
 
 a .h2-header {
-	color: black;
+	/*color: black !important;*/
+	/*color: rgb(255, 194, 75);*/
 }
 a:hover {
 	text-decoration: none;
+	color: rgb(255, 194, 75);
 }
 
 .btn-danger:after, .tn-danger:visited {
