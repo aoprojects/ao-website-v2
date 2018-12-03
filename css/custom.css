@@ -67,11 +67,14 @@ footer {
 .sidebar-content a, .sidebar-content h1, .sidebar-content h2, .sidebar-content p, .sidebar-content ul li {
 	color: rgba(132, 132, 132, 0.8);
 }
-.sidebar-p {
-	color: black;
+.sidebar-heading a {
+	color: orange;
 }
-.small-navbar-heading {
-	text-align: right;
+.sidebar-heading a:hover {
+	color: #ff944d;
+}
+.sidebar-p {
+	/*color: black;*/
 }
 .page-details-section {
 	padding: 30px;
