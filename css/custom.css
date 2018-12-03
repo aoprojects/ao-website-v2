@@ -15,6 +15,18 @@ a:hover {
 .btn-danger:after, .tn-danger:visited {
 	color: white;
 }
+.btn-success {
+	background-color: orange !important;
+	border-color: orange;
+}
+.btn-success:visited {
+	background-color: orange;
+	color: white;
+}
+.btn-success:hover {
+	border-color: orange;
+	border: 2px solid orange;
+}
 h1, h4, h5 {
 	color: rgb(255, 194, 75);
 	/*color: rgb(255, 202, 101);*/
