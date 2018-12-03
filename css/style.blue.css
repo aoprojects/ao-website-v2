@@ -1224,8 +1224,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: orange;
+  border-color: orange;
 }
 
 .btn-success:hover {
@@ -1241,8 +1241,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-success.disabled, .btn-success:disabled {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: orange;
+  border-color: orange;
 }
 
 .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
@@ -1511,16 +1511,16 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-success {
-  color: #28a745;
+  color: orange;
   background-color: transparent;
   background-image: none;
-  border-color: #28a745;
+  border-color: orange;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: orange;
+  border-color: orange;
 }
 
 .btn-outline-success:focus, .btn-outline-success.focus {
@@ -1529,15 +1529,15 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-success.disabled, .btn-outline-success:disabled {
-  color: #28a745;
+  color: orange;
   background-color: transparent;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
 .show > .btn-outline-success.dropdown-toggle {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: orange;
+  border-color: orange;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
@@ -1975,7 +1975,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: orange !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -2043,7 +2043,7 @@ button.bg-dark:focus {
 }
 
 .border-success {
-  border-color: #28a745 !important;
+  border-color: orange !important;
 }
 
 .border-info {
@@ -2083,7 +2083,7 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 .text-success {
-  color: #28a745 !important;
+  color: orange !important;
 }
 
 a.text-success:hover, a.text-success:focus {
@@ -2154,7 +2154,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .badge-success {
   color: #fff;
-  background-color: #28a745;
+  background-color: orange;
 }
 
 .badge-success[href]:hover, .badge-success[href]:focus {
@@ -2312,7 +2312,7 @@ select.form-control-lg:not([size]):not([multiple]) {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
-  color: #28a745;
+  color: orange;
 }
 
 .valid-tooltip {
@@ -2333,13 +2333,13 @@ select.form-control-lg:not([size]):not([multiple]) {
 .was-validated .form-control:valid, .form-control.is-valid, .was-validated
 .custom-select:valid,
 .custom-select.is-valid {
-  border-color: #28a745;
+  border-color: orange;
 }
 
 .was-validated .form-control:valid:focus, .form-control.is-valid:focus, .was-validated
 .custom-select:valid:focus,
 .custom-select.is-valid:focus {
-  border-color: #28a745;
+  border-color: orange;
   -webkit-box-shadow: 0 0 0 0.1rem rgba(40, 167, 69, 0.25);
   box-shadow: 0 0 0 0.1rem rgba(40, 167, 69, 0.25);
 }
@@ -2356,7 +2356,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 }
 
 .was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {
-  color: #28a745;
+  color: orange;
 }
 
 .was-validated .form-check-input:valid ~ .valid-feedback,
@@ -2366,7 +2366,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 }
 
 .was-validated .custom-control-input:valid ~ .custom-control-label, .custom-control-input.is-valid ~ .custom-control-label {
-  color: #28a745;
+  color: orange;
 }
 
 .was-validated .custom-control-input:valid ~ .custom-control-label::before, .custom-control-input.is-valid ~ .custom-control-label::before {
@@ -2389,7 +2389,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
-  border-color: #28a745;
+  border-color: orange;
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label::before, .custom-file-input.is-valid ~ .custom-file-label::before {
