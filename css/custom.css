@@ -28,6 +28,9 @@ footer {
 	padding: 30px;
 	text-align: right;
 }
+.hidden {
+	display: none;
+}
 .h2-header {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 26px;
