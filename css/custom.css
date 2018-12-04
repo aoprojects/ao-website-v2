@@ -29,21 +29,21 @@ a:hover {
 	border-color: orange;
 	border: 2px solid orange;
 }
-h1, h4, h5 {
-	color: rgb(255, 194, 75);
-	/*color: rgb(255, 202, 101);*/
-}
-h2 {
-	color: orange;
-}
 .content-column {
-	background-image: url("../img/founders-that-hustle-banner.png");
+	/*background-image: url("../img/founders-that-hustle-banner.png");*/
 	background-color: white;
 	/*background-color: red;*/
 }
 footer {
 	padding: 30px;
 	text-align: right;
+}
+h1, h4, h5 {
+	color: rgb(255, 194, 75);
+	/*color: rgb(255, 202, 101);*/
+}
+h2 {
+	color: orange;
 }
 .hidden {
 	display: none;
@@ -54,6 +54,31 @@ footer {
 }
 .h1-image {
 	max-width: 100%;
+}
+.index-container {
+	width: 100vw;
+	min-height: 100vh;
+	background: white;
+	margin: 0 auto;
+	padding: 50px 30px;
+}
+.index-container h2 {
+	font-size: 28px;
+}
+.index-container h3 {
+	font-size: 26px;
+	color: rgb(100,100,100);
+}
+.index-container h4 {
+	color: rgb(100,100,100);
+	font-size: 20px;
+}
+.index-container h4 ul li {
+	font-size: 20px;
+}
+#index-page .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 #page-banner {
 	width: 100%;
