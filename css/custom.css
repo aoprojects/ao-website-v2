@@ -77,6 +77,7 @@ h2 {
 .index-container h4 {
 	color: rgb(100,100,100);
 	font-size: 20px;
+	font-weight: 200;
 }
 .index-container h4 ul li {
 	font-size: 20px;
@@ -84,6 +85,19 @@ h2 {
 #index-page .container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+.mailing-list-form input {
+	width: 80%;
+	margin: 0 auto;
+	height: 36px;
+	color: gray;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.mailing-list-form input:hover, .mailing-list-form input:visited, .mailing-list-form input:active, .mailing-list-form input:focus  {
+	box-shadow: 0 0 0 orange;
+	border: 1px solid orange;
+	color: gray;
 }
 #page-banner {
 	width: 100%;
