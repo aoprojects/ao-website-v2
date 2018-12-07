@@ -138,6 +138,15 @@ h2 {
 .sidebar-p {
 	/*color: black;*/
 }
+p.social-dark-background a {
+	border: 1px solid white;
+}
+.social-dark-background a i {
+	color: white;
+}
+.social-dark-background a i:hover {
+	font-size: 1.4em;
+}
 .page-details-section {
 	padding: 30px;
 }
