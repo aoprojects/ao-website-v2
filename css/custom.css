@@ -11,10 +11,6 @@ a:hover {
 	text-decoration: none;
 	color: rgb(255, 194, 75);
 }
-.bottom-of-page {
-	/*height: 100vh;*/
-	padding-top: 30vh;
-}
 .box-masonry-text:hover {
 	border: 1px solid orange;
 }
@@ -102,6 +98,22 @@ h2 {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.index-profile-image {
+	max-width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+}
+@media only screen and (min-width: 800px) {
+	.bottom-of-page-desktop {
+		/*height: 100vh;*/
+		padding-top: 30vh;
+	}
+	.index-profile-image {
+		position: absolute;
+		right: 40px;
+		top: 40px;
+	}	
+}/* end media query for larger page index layout*/
 .mailing-list-form input {
 	width: 80%;
 	margin: 0 auto;
