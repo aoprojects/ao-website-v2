@@ -12,16 +12,8 @@ a:hover {
 	color: rgb(255, 194, 75);
 }
 .bottom-of-page {
-	height: 100vh;
-	width: 100vw;
-	position: relative;
-	top: 0;
-	left: 0;
-	background-color: red;
-}
-.bottom-of-page:nth-child(1n) {
-	/*position: absolute;*/
-	bottom: 0px;
+	/*height: 100vh;*/
+	padding-top: 30vh;
 }
 .box-masonry-text:hover {
 	border: 1px solid orange;
@@ -47,6 +39,9 @@ a:hover {
 .colored-background {
 	background-color: orange;
 }
+.colored-background h4, a {
+	color: white;
+}
 .content-column {
 	/*background-image: url("../img/founders-that-hustle-banner.png");*/
 	background-color: white;
@@ -60,6 +55,9 @@ a:hover {
 footer {
 	padding: 30px;
 	text-align: right;
+}
+.full-page {
+	height: 100vh;
 }
 h1, h4, h5 {
 	color: rgb(255, 194, 75);
@@ -89,12 +87,13 @@ h2 {
 }
 .index-container h3 {
 	font-size: 26px;
+}
+.index-container-white h3, .index-container-white h4 {
 	color: rgb(100,100,100);
 }
 .index-container h4 {
-	color: rgb(100,100,100);
 	font-size: 20px;
-	font-weight: 200;
+	font-weight: 300;
 }
 .index-container h4 ul li {
 	font-size: 20px;
