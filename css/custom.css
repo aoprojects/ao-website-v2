@@ -106,14 +106,19 @@ h2 {
 @media only screen and (min-width: 800px) {
 	.bottom-of-page-desktop {
 		/*height: 100vh;*/
-		padding-top: 30vh;
+		padding-top: 55vh;
 	}
 	.index-profile-image {
 		position: absolute;
-		right: 40px;
-		top: 40px;
+		right: 30px;
+		top: 0px;
 	}	
 }/* end media query for larger page index layout*/
+@media only screen and (max-width: 799px) {
+	.index-profile-image {
+		margin: 30px auto;
+	}
+}
 .large-description {
 	width: 100%;
 	font-size: 26px;
