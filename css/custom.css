@@ -11,6 +11,9 @@ a:hover {
 	text-decoration: none;
 	color: rgb(255, 194, 75);
 }
+.background-white {
+	background-color: white;
+}
 .box-masonry-text:hover {
 	border: 1px solid orange;
 }
