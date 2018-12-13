@@ -161,6 +161,10 @@ img {
 	border: 1px solid orange;
 	color: gray;
 }
+.main-center-image {
+	margin: 0 auto;
+	max-width: 100%;
+}
 #page-banner {
 	width: 100%;
 	padding: 20px 20px;
