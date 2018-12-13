@@ -75,6 +75,12 @@ h2 {
 .h1-image {
 	max-width: 100%;
 }
+img {
+	max-width: 100%;
+}
+.img-centered {
+	margin: 0 auto;
+}
 .index-container {
 	width: 100vw;
 	/*background: white;*/
