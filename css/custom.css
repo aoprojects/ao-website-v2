@@ -11,6 +11,14 @@ a:hover {
 	text-decoration: none;
 	color: rgb(255, 194, 75);
 }
+.abstract-background-shape {
+	width: 470px;
+	max-width: 50%;
+	position: absolute;
+	top: 0vh;
+	right: 0vh;
+	z-index: 0;
+}
 .background-white {
 	background-color: white;
 }
@@ -114,18 +122,26 @@ img {
 }
 @media only screen and (min-width: 800px) {
 	.bottom-of-page-desktop {
-		/*height: 100vh;*/
 		padding-top: 55vh;
+		margin-bottom: 20px;
 	}
 	.index-profile-image {
 		position: absolute;
-		right: 30px;
-		top: 0px;
+		right: -30px;
+		top: -50px;
+		z-index: 1;
 	}	
 }/* end media query for larger page index layout*/
 @media only screen and (max-width: 799px) {
 	.index-profile-image {
 		margin: 30px auto;
+	}
+	.bottom-of-page-desktop {
+		padding-top: 0px;
+		padding-bottom: 40px;
+	}
+	.bottom-of-page-desktop h3 {
+		font-size: 24px;
 	}
 }
 .large-description {
