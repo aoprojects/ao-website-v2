@@ -12,11 +12,11 @@ a:hover {
 	color: rgb(255, 194, 75);
 }
 .abstract-background-shape {
-	width: 470px;
+	width: 500px;
 	max-width: 50%;
 	position: absolute;
-	top: 0vh;
-	right: 0vh;
+	top: -10vh;
+	right: -10vh;
 	z-index: 0;
 }
 .background-white {
@@ -127,8 +127,8 @@ img {
 	}
 	.index-profile-image {
 		position: absolute;
-		right: -30px;
-		top: -50px;
+		top: 30px;
+		left: 30px;
 		z-index: 1;
 	}	
 }/* end media query for larger page index layout*/
