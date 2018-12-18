@@ -64,7 +64,7 @@ footer {
 	text-align: right;
 }
 .full-page {
-	height: 100vh;
+	min-height: 100vh;
 }
 h1, h4, h5 {
 	color: rgb(255, 194, 75);
