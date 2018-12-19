@@ -282,6 +282,9 @@ p.social-dark-background a {
 .social-dark-background a i:hover {
 	font-size: 1.4em;
 }
+.sub-note {
+	margin-left: 30px;
+}
 .theme {
 	color: white;
 	font-size: 32px;
