@@ -78,6 +78,7 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	color: rgba(100, 100, 100, 0.8);
+	margin-bottom: 5px !important;
 }
 h2 {
 	color: orange;
