@@ -301,12 +301,12 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .content-column-content p.lead {
-  color: white;
+  color: #555;
 }
 
 .content-column-content p,
 .content-column-content li {
-  color: white;
+  color: #999;
 }
 
 .content-column-content ul li {
@@ -317,7 +317,7 @@ SIDEBAR + RIGHT COLUMN
   font-family: 'FontAwesome';
   content: '\f105';
   margin: 0 0.85rem 0 -0.9375rem;
-  color: white;
+  color: orange;
 }
 
 .content-column-content h1,
