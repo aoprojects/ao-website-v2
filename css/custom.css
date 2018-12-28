@@ -168,24 +168,24 @@ img {
 }/* end media query for larger page index layout*/
 @media only screen and (min-width: 800px) and (max-width: 1000px) {
 	.index-image img {
-		width: 45%;
+		/*width: 45%;*/
 		/*height: 30vw;*/
-		min-width: 350px;
+/*		min-width: 350px;
 		position: absolute;
 		top: 60px;
 		right: 30px;
-		margin-right: 0;
+		margin-right: 0;*/
 	}
 }
 @media only screen and (min-width: 1001px) {
 	.index-image img {
-		width: 60%;
+		/*width: 60%;*/
 		/*height: 30vw;*/
-		min-width: 350px;
+/*		min-width: 350px;
 		position: absolute;
 		top: 60px;
 		right: 30px;
-		margin-right: 0;
+		margin-right: 0;*/
 	}
 }
 @media only screen and (max-width: 799px) {
@@ -205,15 +205,15 @@ img {
 		font-size: 24px;
 	}
 	.index-image {
-		height: 110px;
+/*		height: 110px;
 		margin: 0 auto;
-		width: 280px;
+		width: 280px;*/
 	}
 	.index-image img {
-		position: relative;
+/*		position: relative;
 		top: -20px;
 		margin: 0 auto;
-		text-align: center;
+		text-align: center;*/
 	}
 }
 .large-description {
