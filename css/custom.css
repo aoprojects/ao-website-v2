@@ -76,9 +76,6 @@ footer {
 	padding: 30px;
 	text-align: right;
 }
-.full-page {
-	min-height: 100vh;
-}
 /*to create gradual indenting effect on desktop for index page*/
 @media only screen and (min-width: 550px) {
 	.gradual-indent-1 {
@@ -156,7 +153,14 @@ img {
 	/*background: white;*/
 	margin: 0 auto;
 	padding: 50px 30px;
+}
+.index-container-top {
+	min-height: 50vh;
 	background-color: orange;
+}
+.index-container-bottom {
+	min-height: 50vh;
+	background-color: #ebebeb;
 }
 .index-container h1 {
 	color: #fff3d6;
@@ -172,9 +176,6 @@ img {
 }
 .index-container p {
 	color: #ffedc2;
-}
-.index-container-white {
-	background-color: white;
 }
 .index-container h4 {
 	font-size: 20px;
@@ -212,7 +213,7 @@ img {
 		width: 200px;*/
 	}
 }
-/*to center image on about page and ensure it's not too big*/
+/*to center profile image on about page and ensure it's not too big*/
 @media only screen and (max-width: 991px) {
 	.image-headshot {
 		text-align: center;
@@ -224,31 +225,7 @@ img {
 	.image-headshot {
 		padding-bottom: 20px;
 	}
-}
-/* begin general media queries for mobile vs desktop sizing*/
-@media only screen and (min-width: 800px) {
-	.bottom-of-page-desktop {
-		padding-top: 20vh;
-		/*margin-bottom: 20px;*/
-	}
-	.index-profile-image {
-		position: relative;
-		/*top: 40px;*/
-		/*left: 40px;*/
-		z-index: 1;
-	}	
-}/* end media query for larger page index layout*/
-@media only screen and (max-width: 799px) {
-	.index-profile-image {
-		margin: 30px auto;
-		width: 100%;
-		text-align: center;
-	}
-	.index-profile-image img {
-		min-width: 300px;
-	}
-}
-/*end media query*/
+}/*end media query*/
 .large-description {
 	width: 100%;
 	font-size: 26px;
