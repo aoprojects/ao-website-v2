@@ -94,9 +94,6 @@ h2 {
 .h1-image {
 	max-width: 100%;
 }
-#index-nav-options {
-
-}
 img {
 	max-width: 100%;
 }
@@ -115,16 +112,25 @@ img {
 	/*background: white;*/
 	margin: 0 auto;
 	padding: 50px 30px;
+	background-color: orange;
+}
+.index-container h1 {
+	color: #fff3d6;
 }
 .index-container h2 {
 	font-size: 28px;
+	color: #ffedc2;
+	text-align: left;
 }
 .index-container h3 {
 	font-size: 26px;
 	margin-bottom: 8px;
 }
+.index-container p {
+	color: #ffedc2;
+}
 .index-container-white h3, .index-container-white h4 {
-	color: rgb(100,100,100);
+	color: white;
 }
 .index-container h4 {
 	font-size: 20px;
@@ -147,17 +153,10 @@ img {
 	margin: 0 auto;
 	padding: 15px;
 }
-@media only screen and (min-width: 1400px) {
-	.bottom-of-page-desktop {
-		margin: 0 auto;
-		max-width: 800px;
-	}
-}
-
 @media only screen and (min-width: 800px) {
 	.bottom-of-page-desktop {
-		padding-top: 65vh;
-		margin-bottom: 20px;
+		padding-top: 20vh;
+		/*margin-bottom: 20px;*/
 	}
 	.index-profile-image {
 		position: relative;
@@ -166,28 +165,16 @@ img {
 		z-index: 1;
 	}	
 }/* end media query for larger page index layout*/
-@media only screen and (min-width: 800px) and (max-width: 1000px) {
-	.index-image img {
-		/*width: 45%;*/
-		/*height: 30vw;*/
-/*		min-width: 350px;
-		position: absolute;
-		top: 60px;
-		right: 30px;
-		margin-right: 0;*/
-	}
+.index-image {
+	width: 100%;
+	margin: 0 auto;
 }
-@media only screen and (min-width: 1001px) {
-	.index-image img {
-		/*width: 60%;*/
-		/*height: 30vw;*/
-/*		min-width: 350px;
-		position: absolute;
-		top: 60px;
-		right: 30px;
-		margin-right: 0;*/
-	}
+.index-image img {
+	margin: 0 auto;
+	min-width: 250px;
+	min-height: 250px;		
 }
+
 @media only screen and (max-width: 799px) {
 	.index-profile-image {
 		margin: 30px auto;
@@ -196,24 +183,6 @@ img {
 	}
 	.index-profile-image img {
 		min-width: 300px;
-	}
-	.bottom-of-page-desktop {
-		padding-top: 0px;
-		padding-bottom: 40px;
-	}
-	.bottom-of-page-desktop h3 {
-		font-size: 24px;
-	}
-	.index-image {
-/*		height: 110px;
-		margin: 0 auto;
-		width: 280px;*/
-	}
-	.index-image img {
-/*		position: relative;
-		top: -20px;
-		margin: 0 auto;
-		text-align: center;*/
 	}
 }
 .large-description {
