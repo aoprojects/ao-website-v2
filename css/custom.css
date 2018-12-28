@@ -35,6 +35,9 @@ footer {
 .box-masonry-text:hover {
 	border: 1px solid orange;
 }
+#about-page .box-masonry-text:hover {
+	border: none;
+}
 .box-masonry-text h4 {
 	color: black;
 }
