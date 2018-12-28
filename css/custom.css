@@ -87,10 +87,14 @@ h2 {
 }
 h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	color: rgba(100, 100, 100, 0.8);
+	font-size: 28px;
+	color: orange;
 	margin-bottom: 15px !important;
-	font-weight: 300;
+	font-weight: 400;
+}
+h4 {
+	color: orange;
+	font-weight: 400;
 }
 .hidden {
 	display: none;
@@ -162,6 +166,17 @@ img {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+/*to center image on about page and ensure it's not too big*/
+@media only screen and (max-width: 991px) {
+	.image-headshot {
+		text-align: center;
+	}
+	.image-headshot img {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}
+/* begin general media queries for mobile vs desktop sizing*/
 @media only screen and (min-width: 800px) {
 	.bottom-of-page-desktop {
 		padding-top: 20vh;
