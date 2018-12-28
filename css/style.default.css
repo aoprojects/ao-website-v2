@@ -193,7 +193,7 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .sidebar-heading a:hover {
-  border-bottom: dotted 1px orange;
+  border-bottom: dotted 1px white;
   color: #000;
   text-decoration: none;
 }
@@ -214,17 +214,17 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .sidebar-item.active > a, .sidebar-item.current-menu-item > a {
-  color: orange;
+  color: white;
   font-weight: bold;
 }
 
 .sidebar-item.active:before, .sidebar-item.current-menu-item:before {
-  color: orange;
+  color: white;
 }
 
 .sidebar-item a:hover {
   text-decoration: none;
-  color: orange;
+  color: white;
 }
 
 .sidebar-item .sub-menu {
@@ -234,46 +234,46 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .sidebar-item .sub-menu a {
-  color: #999;
+  color: white;
 }
 
 .sidebar-item .sub-menu a:hover {
-  color: orange;
+  color: white;
 }
 
 .sidebar-item .sub-menu li.active > a,
 .sidebar-item .sub-menu li.current-menu-item > a {
-  color: orange;
+  color: white;
   font-weight: bold;
 }
 
 .sidebar-item .sub-menu li.active:before,
 .sidebar-item .sub-menu li.current-menu-item:before {
-  color: orange;
+  color: white;
 }
 
 .sidebar-link {
-  color: #555;
+  color: white;
 }
 
 .sidebar-link:before {
   font-family: 'FontAwesome';
   content: '\f105';
   margin: 0 0.85rem 0 -0.9375rem;
-  color: #999;
+  color: white;
 }
 
 .sidebar-link.active {
-  color: orange;
+  color: white;
   font-weight: bold;
 }
 
 .sidebar-link.active::before {
-  color: orange;
+  color: white;
 }
 
 .sidebar-link:hover::before {
-  color: orange;
+  color: white;
 }
 
 .content-column {
@@ -301,12 +301,12 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .content-column-content p.lead {
-  color: #555;
+  color: white;
 }
 
 .content-column-content p,
 .content-column-content li {
-  color: #999;
+  color: white;
 }
 
 .content-column-content ul li {
@@ -317,7 +317,7 @@ SIDEBAR + RIGHT COLUMN
   font-family: 'FontAwesome';
   content: '\f105';
   margin: 0 0.85rem 0 -0.9375rem;
-  color: orange;
+  color: white;
 }
 
 .content-column-content h1,
@@ -359,7 +359,7 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .small-navbar-heading a:hover {
-  border-bottom: dotted 1px orange;
+  border-bottom: dotted 1px white;
   color: #000;
   text-decoration: none;
 }

@@ -269,16 +269,16 @@ img {
 	/*border-right: 1px dashed orange;*/
 }
 .sidebar-content a, .sidebar-content h1, .sidebar-content h2, .sidebar-content p, .sidebar-content ul li {
-	color: rgba(132, 132, 132, 0.8);
+	color: rgb(255, 253, 250);
 }
 .sidebar-heading a {
-	color: orange;
+	color: rgb(255, 253, 250);
 }
 .sidebar-heading a:hover {
-	color: #ff944d;
+	color: white;
 }
 .sidebar-p {
-	/*color: black;*/
+
 }
 p.social-dark-background a {
 	border: 1px solid white;
