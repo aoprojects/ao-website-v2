@@ -94,6 +94,9 @@ h2 {
 .h1-image {
 	max-width: 100%;
 }
+#index-nav-options {
+
+}
 img {
 	max-width: 100%;
 }
@@ -157,9 +160,9 @@ img {
 		margin-bottom: 20px;
 	}
 	.index-profile-image {
-		position: absolute;
-		top: 40px;
-		left: 40px;
+		position: relative;
+		/*top: 40px;*/
+		/*left: 40px;*/
 		z-index: 1;
 	}	
 }/* end media query for larger page index layout*/
