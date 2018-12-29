@@ -254,6 +254,11 @@ img {
 	width: 100%;
 	font-size: 26px;
 }
+.lower-sidebar-content {
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
 .mailing-list-form input {
 	width: 80%;
 	margin: 0 auto;
@@ -326,6 +331,9 @@ img {
 }
 .sidebar-p {
 
+}
+#sidebar-skyline img {
+	max-width: 100%;
 }
 p.social-dark-background a {
 	border: 1px solid white;
