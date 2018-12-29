@@ -227,7 +227,15 @@ img {
 	}
 }/*end media query*/
 #index-skyline {
-	
+	position: absolute;
+	top: 30vh;
+	z-index: 0;
+	right: 0;
+}
+#index-skyline img {
+	max-height: 200px;
+	margin-right: 0;
+	padding-right: 0;
 }
 .large-description {
 	width: 100%;
