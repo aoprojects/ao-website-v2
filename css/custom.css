@@ -62,6 +62,9 @@ a:hover {
 .background-white {
 	background-color: white;
 }
+.bigger {
+	font-size: 1.5em;
+}
 .big-link {
 	font-size: 22px;
 	color: orange;
@@ -294,6 +297,10 @@ img {
 	width: 100%;
 	font-size: 26px;
 }
+.lower {
+	position: relative;
+	top: 10px;
+}
 .lower-sidebar-content {
 	text-align: center;
 	position: fixed;
@@ -315,6 +322,9 @@ img {
 .main-center-image {
 	margin: 0 auto;
 	max-width: 100%;
+}
+.orange {
+	color: orange !important;
 }
 .padding-after {
 	padding-bottom: 20px;
@@ -386,6 +396,7 @@ p.social-dark-background a {
 }
 .sub-note {
 	margin-left: 30px;
+	color: orange;
 }
 .theme {
 	color: white;
@@ -395,6 +406,9 @@ p.social-dark-background a {
 }
 .theme-font {
 	font-family: 'Source Code Pro', monospace;
+}
+.ux-pages .page-details-section li {
+	padding-top: 5px;
 }
 .venture-logo {
 	padding: 10px 30px;
