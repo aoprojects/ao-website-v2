@@ -305,8 +305,18 @@ img {
 	height: 100%;
 	/*border-right: 1px dashed orange;*/
 }
+@media only screen and (min-width: 768px) {
+	.sidebar-content {
+		position: fixed;
+		max-width: 100%;
+	}
+}
+/*end fixing sidebar on desktop media query*/
 .sidebar-content a, .sidebar-content h1, .sidebar-content h2, .sidebar-content p, .sidebar-content ul li {
-	color: rgb(255, 253, 250);
+	color: rgb(255, 253, 250) !important;
+}
+.sidebar-content h2 {
+	font-size: 22px;
 }
 .sidebar-heading a {
 	color: rgb(255, 253, 250);
