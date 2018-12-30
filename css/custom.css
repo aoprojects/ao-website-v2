@@ -247,6 +247,22 @@ img {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+/*for social media links in upper right of index page*/
+.index-social {
+	position: absolute;
+	right: 20px;
+	top: -20px;
+}
+.index-social a {
+	color: #ebebeb !important;
+	border: solid 1px #ebebeb !important;
+}
+.index-social a:hover {
+	color: #ebebeb !important;
+}
+.index-social a i {
+	font-size: 22px;
+}
 @media only screen and (min-width: 992px) {
 	.image-headshot {
 		height: 150px;
