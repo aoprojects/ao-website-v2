@@ -137,6 +137,9 @@ footer {
 	.gradual-indent-4 {
 		padding-left: 40px;
 	}
+	.gradual-indent-5 {
+		padding-left: 50px;
+	}
 }
 @media only screen and (max-width: 549px) {
 	.gradual-indent-1 {
@@ -149,6 +152,9 @@ footer {
 		padding-left: 0px;
 	}
 	.gradual-indent-4 {
+		padding-left: 0px;
+	}
+	.gradual-indent-5 {
 		padding-left: 0px;
 	}
 }
