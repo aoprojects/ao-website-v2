@@ -659,7 +659,10 @@ ABOUT
   color: #999;
   font-size: 0.78rem;
 }
-
+.progress-bar-skill0 {
+  background: #f8bbae;
+  /*background: #f8b8cd;*/
+}
 .progress-bar-skill1 {
   background: #f8afc7;
 }
