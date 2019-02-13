@@ -20,6 +20,8 @@
   <!-- theme stylesheet-->
   <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
   <link rel="stylesheet" href="css/animate.css">
+  <!-- input field stylesheet-->
+  <link rel="stylesheet" href="css/input.css">
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
@@ -106,6 +108,7 @@
   </div>
   <footer>
     <div class="email-list-subscription-form">      
+      <h3 class="text-center">Subscribe for updates</h3>
       <link href="https://d1gwclp1pmzk26.cloudfront.net/agile/forms/v1/agile-form-min.css" rel="stylesheet">
       <form id="agile-form" action="https://alisonostendorf.agilecrm.com/formsubmit" method="GET">
         <fieldset>
@@ -123,20 +126,20 @@
           </div>
           <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-12"><!-- begin input -->
-              <div>
-                <input maxlength="250" id="agilefield-1" name="first_name" type="text" placeholder="Your name" class="field-input-area">
+              <div class="field-input-area">
+                <input maxlength="250" id="agilefield-1" name="first_name" type="text" placeholder="Your name">
               </div>
               <div class="agile-custom-clear"></div>
             </div><!-- / input -->
             <div class="col-lg-5 col-md-5 col-sm-12"><!-- begin input -->
-              <div>
-                <input maxlength="250" id="agilefield-2" name="email" type="email" placeholder="Your email" class="field-input-area">
+              <div class="field-input-area margin-after">
+                <input maxlength="250" id="agilefield-2" name="email" type="email" placeholder="Your email address">
               </div>
               <div class="agile-custom-clear"></div>
             </div><!-- / input -->
             <!--recaptcha aglignment-->
             <div class="col-lg-2 col-md-2 col-sm-12"><!-- begin button -->
-              <div>
+              <div class="form-field-button">
                 <button type="submit" class="btn btn-success btn-bg">Subscribe</button>
                 <br>
                 <span id="agile-error-msg"></span>
@@ -149,7 +152,7 @@
       (function(a){var b=a.onload,p=true;isCaptcha=true;if(p){a.onload="function"!=typeof b?function(){try{_agile_load_form_fields()}catch(a){}}:function(){b();try{_agile_load_form_fields()}catch(a){}}};var formLen=document.forms.length;for(i=0;i<formLen;i++){if(document.forms.item(i).getAttribute("id")== "agile-form"){a.document.forms.item(i).onsubmit=function(a){a.preventDefault();try{_agile_synch_form_v5(this)}catch(b){this.submit()}}}}})(window);
       </script>
     </div><!-- / email-list-subscription-form -->
-    <br>
+    <br><br>
     <div class="copyright container">
       <p class="credit">&copy;2018 Alison Ostendorf | Oringinal template by <a href="http://bootstrapious.com/portfolio-themes" class="external" target="none">Bootstrapious.com</a>
       <br>
