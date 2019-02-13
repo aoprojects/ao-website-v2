@@ -211,6 +211,12 @@ img {
 	margin: 0 auto;
 	padding: 50px 30px;
 }
+.index-container-slogan {
+	font-size: 4em;
+	text-align: center;
+	color: #ddd !important;
+	padding-top: 30px;
+}
 .index-container-top {
 	min-height: 50vh;
 	background-color: orange;
@@ -272,6 +278,16 @@ img {
 }
 .index-social a i {
 	font-size: 22px;
+}
+.sign-up-social a {
+	color: #ebebeb !important;
+	border: solid 1px #ebebeb !important;
+}
+.sign-up-social a i {
+	font-size: 22px;
+}
+.sign-up-social a:hover {
+	color: #ebebeb !important;
 }
 @media only screen and (min-width: 992px) {
 	.image-headshot {
