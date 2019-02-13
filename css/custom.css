@@ -114,6 +114,9 @@ footer {
 	background-color: white;
 	/*background-color: red;*/
 }
+.email-list-subscription-form {
+	text-align: center;
+}
 .explainer-graphic {
 	max-width: 100%;
 	margin: 0 auto;
