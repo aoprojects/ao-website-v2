@@ -76,9 +76,6 @@ body {
 	font-weight: 500;
 	font-size: 0.8em;
 }
-footer {
-	background-color: #F5F5F5;
-}
 .box-masonry-text:hover {
 	border: 1px solid orange;
 }
@@ -125,6 +122,8 @@ footer {
 footer {
 	padding: 30px;
 	text-align: right;
+	background-color: #F5F5F5;
+	box-shadow: 0px 5px 15px rgb(230, 230, 230) inset;
 }
 /*to create gradual indenting effect on desktop for index page*/
 @media only screen and (min-width: 550px) {
