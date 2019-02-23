@@ -213,6 +213,10 @@ img {
 	margin: 0 auto;
 	padding: 50px 30px;
 }
+.index-container h4 {
+	display: inline;
+	padding-left: 10px;
+}
 .index-container-slogan {
 	font-size: 4em;
 	text-align: center;
