@@ -217,6 +217,12 @@ img {
 	display: inline;
 	padding-left: 10px;
 }
+/*so that on index page, the h4 links have space between wording and icons above*/
+@media only screen and (max-width: 991px) {
+	.index-container h4 {
+/*		margin-top: 5px;*/
+	}
+}/* / media query */
 .index-container-slogan {
 	font-size: 4em;
 	text-align: center;
@@ -345,6 +351,17 @@ img {
 	width: 100%;
 	font-size: 26px;
 }
+/*to left align when the screen is bigger than sm*/
+@media only scren and (min-width: 992px) {
+	.lg-left-sm-center {
+		text-align: left;
+	}
+}
+/*to center when screen sm or smaller*/
+.lg-left-sm-center {
+	text-align: center;
+}
+
 .lower {
 	position: relative;
 	top: 10px;
