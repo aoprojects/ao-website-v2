@@ -73,6 +73,9 @@ body {
 	/*background-color: orange;*/
 	background-color: gray;
 }
+#index-page {
+	background-color: orange;
+}
 .bolder {
 	font-weight: 500;
 	font-size: 0.8em;
