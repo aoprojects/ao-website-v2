@@ -214,12 +214,14 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .sidebar-item.active > a, .sidebar-item.current-menu-item > a {
-  color: white;
+  color: orange;
   font-weight: bold;
 }
 
 .sidebar-item.active:before, .sidebar-item.current-menu-item:before {
-  color: white;
+  color: orange;
+  display: none;
+  /*edited per coloring of nav sidebar*/
 }
 
 .sidebar-item a:hover {
@@ -243,37 +245,45 @@ SIDEBAR + RIGHT COLUMN
 
 .sidebar-item .sub-menu li.active > a,
 .sidebar-item .sub-menu li.current-menu-item > a {
-  color: white;
+  color: orange;
   font-weight: bold;
 }
 
 .sidebar-item .sub-menu li.active:before,
 .sidebar-item .sub-menu li.current-menu-item:before {
-  color: white;
+  color: orange;
+  display: none;
+  /*edited per coloring of nav sidebar*/
 }
 
 .sidebar-link {
-  color: white;
+  color: orange;
 }
 
 .sidebar-link:before {
   font-family: 'FontAwesome';
   content: '\f105';
   margin: 0 0.85rem 0 -0.9375rem;
-  color: white;
+  color: orange;
+  display: none;
+  /*edited per coloring of nav sidebar*/
 }
 
 .sidebar-link.active {
-  color: white;
+  color: orange;
   font-weight: bold;
 }
 
 .sidebar-link.active::before {
-  color: white;
+  color: orange;
+  display: none;
+  /*edited per coloring of nav sidebar*/
 }
 
 .sidebar-link:hover::before {
-  color: white;
+  color: orange;
+  display: none;
+  /*edited per coloring of nav sidebar*/
 }
 
 .content-column {

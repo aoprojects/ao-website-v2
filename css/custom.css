@@ -10,7 +10,7 @@ a .h2-header {
 }
 a:hover {
 	text-decoration: none;
-	color: rgb(255, 194, 75);
+	color: rgb(255, 194, 75); /*ligher orange?*/
 }
 .abstract-background-shape {
 	width: 500px;
@@ -71,8 +71,7 @@ a:hover {
 	color: orange;
 }
 body {
-	/*background-color: orange;*/
-	background-color: rgb(76, 46, 0);
+	background-color: #ffe7c1; /*light orange*/
 }
 #index-page {
 	background-color: orange;
@@ -437,7 +436,7 @@ img {
 }
 /*end fixing sidebar on desktop media query*/
 .sidebar-content a, .sidebar-content h1, .sidebar-content h2, .sidebar-content p, .sidebar-content ul li {
-	color: rgb(255, 253, 250) !important;
+	color: orange;
 }
 .sidebar-content h2 {
 	font-size: 22px;
@@ -450,6 +449,10 @@ img {
 }
 .sidebar-p {
 
+}
+/*.sidebar-item was taken as a class from the template, so we will replicate it here*/
+.sidebar-item a {
+	padding-left: 15px;
 }
 #sidebar-skyline img {
 	max-width: 100%;
