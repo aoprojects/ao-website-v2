@@ -1,5 +1,6 @@
 /* your styles go here */
 /*orange color is rgb(255,163,0)*/
+/*body background color done by ##f7f1e8*/
 a {
 	color: orange;
 }
@@ -127,7 +128,7 @@ footer {
 	padding: 30px;
 	text-align: right;
 	background-color: #F5F5F5;
-	box-shadow: 0px 5px 15px rgb(230, 230, 230) inset;
+	/*box-shadow: 0px 5px 15px rgb(230, 230, 230) inset;*/
 }
 .footer-tagline {
 	color: gray;
@@ -369,7 +370,17 @@ img {
 .lg-left-sm-center {
 	text-align: center !important;
 }
-
+/*footer alignment of items - centered on stacked column screens, left on wide screens*/
+@media only screen and (min-width: 767px) {
+	.md-left-sm-center {
+		text-align: left;
+	}
+}
+@media only screen and (max-width: 766px) {
+	.md-left-sm-center {
+		text-align: center;
+	}
+}
 .lower {
 	position: relative;
 	top: 10px;
