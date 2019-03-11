@@ -442,10 +442,13 @@ img {
 	font-size: 22px;
 }
 .sidebar-heading a {
-	color: rgb(255, 253, 250);
+	color: orange;
+	font-size: 32px;
+	font-weight: 200;
 }
 .sidebar-heading a:hover {
-	color: white;
+	color: orange;
+	font-weight: 300;
 }
 .sidebar-p {
 
