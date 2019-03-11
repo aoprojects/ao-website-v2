@@ -128,6 +128,7 @@ footer {
 	padding: 30px;
 	text-align: right;
 	background-color: #F5F5F5;
+	z-index: 10;
 	/*box-shadow: 0px 5px 15px rgb(230, 230, 230) inset;*/
 }
 .footer-tagline {
@@ -449,6 +450,9 @@ img {
 .sidebar-content a, .sidebar-content h1, .sidebar-content h2, .sidebar-content p, .sidebar-content ul li {
 	color: orange;
 }
+.sidebar-content a:hover {
+	color: orange;
+}
 .sidebar-content h2 {
 	font-size: 22px;
 }
@@ -459,7 +463,7 @@ img {
 }
 .sidebar-heading a:hover {
 	color: orange;
-	font-weight: 300;
+	font-weight: 500;
 }
 .sidebar-p {
 
