@@ -490,6 +490,25 @@ img {
 	color: orange;
 	font-weight: 500;
 }
+/*get sidebar icons vs title names to display differently on sm than md*/
+	.sidebar-link {
+
+	}
+	.sidebar-nav-link-icon {
+		float: left;
+		padding: 10px 10px 10px 0px;
+		margin-bottom: 15px;
+	}
+	.sidebar-nav-link-title {
+		float: left;
+		padding: 5px 10px;
+		position: relative;
+		top: 15px;
+	}
+/*end sidebar icons vs title display styles*/
+.sidebar-menu {
+	padding-left: 0px;
+}
 .sidebar-p {
 
 }

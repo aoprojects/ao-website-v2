@@ -36,9 +36,18 @@
         <!--   *** SIDEBAR ***-->
         <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
           <div class="sidebar-content">
-            <h1 class="sidebar-heading"> <a href="index.html">AO</a></h1>
+            <h1 class="sidebar-heading"><a href="index.html">AO</a></h1>
             <ul class="sidebar-menu">
-                <li class="sidebar-item"><img src="img/icons/icon-tools-crossed-orange.svg"><a href="entrepreneur.html" class="sidebar-link">Entrepreneur</a></li>
+                <li class="sidebar-item">
+                  <a href="entrepreneur.html" class="sidebar-link">
+                    <img src="img/icons/icon-tools-crossed-orange.svg" class="sidebar-nav-link-icon">
+                    <!-- display the link name only when hamburger menu clicked nav pops out on sm and xs-->
+                    <div class="d-md-none sidebar-nav-link-title">
+                      Entrepreneur
+                    </div>
+                  </a>              
+                </li>
+                <div class="clearfix"></div>
                 <li class="sidebar-item"><img src="img/icons/computer-analytics-upward-trend-orange.svg"><a href="product-manager.html" class="sidebar-link">Product&nbsp;Manager</a></li>
                 <li class="sidebar-item"><img src="img/icons/icon-bullseye-orange.svg"><a href="founder-consulting.html" class="sidebar-link">Founder&nbsp;Consulting</a></li>
                 <li class="sidebar-item"><img src="img/icons/icon-portfolio-orange.svg"><a href="about.html" class="sidebar-link active">Resumé&nbsp;&amp;&nbsp;Connect</a></li>
