@@ -53,7 +53,7 @@ a:hover {
 		color: orange;
 	}
 	.back-arrow-position-pm {
-		/*not done yet. todo goal is to put this arrow pointing to pm icon rather than entrep icon*/
+		/*not done yet. todo goal is to put this arrow pointing to pm icon rather than entrep*/
 	}
 }
 /*back arrow being lower on mobile to make room for Menu button above it */
@@ -345,6 +345,7 @@ img {
 	top: 0px;
 	width: 100%;
 	background-color: transparent;
+	padding-top: 10px;
 }
 .sign-up-social a {
 	color: #ebebeb !important;
