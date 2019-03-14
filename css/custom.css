@@ -29,30 +29,28 @@ a:hover {
 @media only screen and (min-width: 768px) {
 	.back-arrow {
 		position: fixed;
-		top: 5px;
-		left: 15px;
-		font-size: 50px;
-		font-weight: 300;
-		height: 50px;
-		width: 50px !important;
-		background-color: blue;
-		/*border: 1px solid gray;*/
+		top: 86px;
+		left: 92px;
+		font-size: 30px;
+		font-weight: 200;
+		height: 25px;
+		width: 25px;
+		border: 1px solid orange;
+		border-radius: 25px;
 	}
 	.back-arrow:hover {
 		cursor: pointer;
 	}
 	.back-arrow a {
-		color: #ddd;
-		border: 1px solid #ddd;
-		border-radius: 15px;
-		height: 20px;
-		width: 200px !important;
-		background-color: red;
+		color: orange;
+		position: relative;
+		top: -14px;
+		left: 4px;
+		/*for some reason I can't get this to have a cirlce around it, so i put it around the .back-arrow*/
 
 	}
 	.back-arrow a:hover {
 		color: orange;
-		border: 1px solid orange;
 	}
 }
 /*back arrow being lower on mobile to make room for Menu button above it */
@@ -76,7 +74,7 @@ a:hover {
 		color: orange;
 		position: relative;
 		top: -20px;
-		left: 4px;
+		left: 5px;
 		width: 60px !important;
 		height: 60px !important;
 
