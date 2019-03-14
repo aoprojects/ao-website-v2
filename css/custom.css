@@ -465,6 +465,12 @@ img {
 #sidebar {
 	height: 100%;
 }
+/*sidebar will be smaller when on desktop view, vs visible via hamburger menu, which is when hamburger is clicked and screen is in sizes sm and xs*/
+@media only screen and (min-width: 768px) {
+	#sidebar {
+		max-width: 110px;
+	}
+}
 @media only screen and (min-width: 768px) {
 	.sidebar-content {
 		position: fixed;
@@ -515,6 +521,12 @@ img {
 /*.sidebar-item was taken as a class from the template, so we will replicate it here*/
 .sidebar-item a {
 	padding-left: 15px;
+}
+/*upon hover on desktop md and lg, show underline of sidebar icons clicked or active*/
+@media only screen and (min-width: 768px) {
+	.sidebar-item img:hover {
+		border-right: 1px solid orange;
+	}
 }
 #sidebar-skyline img {
 	max-width: 100%;
