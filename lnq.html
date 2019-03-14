@@ -36,7 +36,10 @@
         <!--   *** SIDEBAR ***-->
         <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
           <div class="sidebar-content">
-            <h1 class="sidebar-heading"> <a href="index.html">AO</a></h1>
+            <!-- only display short version of brand in wide desktop versions -->
+            <h1 class="sidebar-heading d-none d-md-block d-lg-block d-xl-block"><a href="index.html">AO</a></h1>
+            <!-- only display the long version of brand name in screens larger than md -->
+            <h1 class="sidebar-heading d-md-none"><a href="index.html">Alison Ostendorf</a></h1>
             <ul class="sidebar-menu">
                 <!-- Link-->
                 <li class="sidebar-item">

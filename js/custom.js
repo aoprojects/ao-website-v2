@@ -3,3 +3,9 @@
 // if hover over ('.sidebar-nav-link-icon') 
 // then
 // show the next following ('.sidebar-nav-link-title')
+
+$(document).ready(function() {
+	$(".sidebar-nav-link-icon:hover");
+		$(".sidebar-nav-link-title").addClass("visible");
+})
+
