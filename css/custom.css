@@ -458,6 +458,10 @@ img {
 .orange {
 	color: orange !important;
 }
+p {
+	font-size: 22px;
+	color: gray;
+}
 .padding-after {
 	padding-bottom: 20px;
 }
