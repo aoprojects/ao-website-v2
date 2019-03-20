@@ -1,4 +1,4 @@
-/* your styles go here */
+-/* your styles go here */
 /*orange color is rgb(255,163,0)*/
 /*body background color done by ##f7f1e8. Sidebar content takes on body color.*/
 a {
@@ -577,8 +577,11 @@ p.social-dark-background a {
 	font-size: 1.4em;
 }
 .sub-note {
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 	color: orange;
+}
+.tabled-columns-6 div {
+	padding-bottom: 20px;
 }
 .theme {
 	color: white;
