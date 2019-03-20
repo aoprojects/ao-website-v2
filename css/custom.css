@@ -99,7 +99,7 @@ a:hover {
 body {
 	/*background-color: #f7f1e8;*/
 	/*background-color: #fffdfc;*/
-	background-image: url("../img/background/gplaypattern.png");
+	background-image: url("../img/background/gplaypattern.png") !important;
 }
 #index-page {
 	background-color: orange;
@@ -344,7 +344,7 @@ img {
 	/*position: absolute;*/
 	top: 0px;
 	width: 100%;
-	background-color: transparent;
+	background-color: transparent !important;
 	padding-top: 10px;
 }
 .sign-up-social a {
