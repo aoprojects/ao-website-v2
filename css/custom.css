@@ -168,6 +168,9 @@ footer .sidebar-menu {
 	color: gray;
 	padding-bottom: 20px;
 }
+.gray {
+	color: gray;
+}
 /*to create gradual indenting effect on desktop for index page*/
 @media only screen and (min-width: 550px) {
 	.gradual-indent-1 {
