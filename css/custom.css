@@ -119,6 +119,9 @@ body {
 	font-size: 30px;
 	font-weight: 300;
 }
+#about-page h5 {
+	font-size: 22px;
+}
 .box-masonry-text h4 {
 	color: black;
 }
@@ -352,6 +355,17 @@ img {
 .index-social a i {
 	font-size: 22px;
 }
+.experience-description .job-role {
+	color: gray;
+	font-size: 22px;
+	position: relative;
+	top: -24px;
+	left: 40px;
+}
+.experience-description p {
+	position: relative;
+	top: -20px;
+}
 /*to make areas above the fold cleaner, and to create a type of landing page image on each main page*/
 .jumbotron {
 	height: 90vh;
@@ -473,7 +487,7 @@ img {
 	color: orange !important;
 }
 p {
-	font-size: 24px;
+	font-size: 18px;
 	color: gray;
 }
 .padding-after {
