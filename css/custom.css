@@ -592,6 +592,9 @@ p {
 #sidebar-skyline img {
 	max-width: 100%;
 }
+.slogan {
+	max-width: 600px;
+}
 p.social-dark-background a {
 	border: 1px solid white;
 }
