@@ -140,6 +140,10 @@ body {
 	border-color: orange;
 	border: 2px solid orange;
 }
+.centered-description {
+	margin: 0 15% 30px 15%;
+	text-align: right;
+}
 .colored-background {
 	background-color: orange;
 }
@@ -160,7 +164,6 @@ body {
 	border-left: 2px dashed rgb(210, 210, 210);
 	padding-left: 20px;
 	margin-left: 20px;
-
 }
 .explainer-graphic {
 	max-width: 100%;
@@ -250,6 +253,7 @@ h5 {
 .h2-header {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 26px;
+	color: orange;
 }
 .h1-image {
 	max-width: 100%;
@@ -302,7 +306,7 @@ img {
 }
 .index-container h2 {
 	font-size: 28px;
-	color: #ffedc2;
+	color: orange;
 	text-align: left;
 }
 .index-container h3 {
