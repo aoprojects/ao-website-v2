@@ -594,6 +594,8 @@ p {
 }
 .slogan {
 	max-width: 600px;
+	font-family: 'Source Code Pro', monospace;
+	color: white !important;
 }
 p.social-dark-background a {
 	border: 1px solid white;
